@@ -1,0 +1,63 @@
+# 📊 Análisis de Ventas - Proyecto Integrador
+
+## 🏆 1. Top 5 productos más vendidos y sus vendedores principales
+
+### 🎯 Pregunta:
+> ¿Cuáles fueron los 5 productos más vendidos (por cantidad total), y cuál fue el vendedor que más unidades vendió de cada uno?
+
+### 📈 Análisis adicional:
+- ¿Hay algún vendedor que aparece más de una vez como el que más vendió un producto?
+- ¿Algunos de estos vendedores representan más del 10% de las ventas de ese producto?
+
+### 🧠 Interpretación esperada:
+- Identificar patrones de rendimiento por vendedor.
+- Detectar si hay concentración de ventas en pocos vendedores.
+- Evaluar dependencia de ciertos productos respecto a actores clave.
+
+## 👥 2. Participación de clientes en los 5 productos más vendidos
+
+### 🎯 Pregunta:
+> Entre los 5 productos más vendidos, ¿cuántos clientes únicos los compraron y qué proporción representan sobre el total de clientes?
+
+### 📈 Análisis adicional:
+- ¿Ese porcentaje indica adopción amplia o focalizada?
+- ¿Algún producto depende de pocos clientes que generan mucho volumen?
+- ¿Cuál es la diferencia entre productos en cuanto a diversidad de compradores?
+
+### 🧠 Interpretación esperada:
+- Evaluar si los productos fueron populares o exclusivos.
+- Medir la penetración de cada producto en la base de clientes.
+
+## 🏷️ 3. Relación de productos más vendidos con sus categorías
+
+### 🎯 Pregunta:
+> ¿A qué categorías pertenecen los 5 productos más vendidos y qué proporción representan dentro del total de unidades vendidas de su categoría?
+
+### 🛠 Requisito técnico:
+- Utilizar funciones de ventana (`WINDOW FUNCTIONS`) para:
+  - Calcular ranking dentro de la categoría.
+  - Comparar la proporción del producto respecto al total de su categoría.
+
+### 🧠 Interpretación esperada:
+- Ver si los productos dominan su categoría o comparten protagonismo.
+- Detectar si hay productos “estrella” dentro de segmentos específicos.
+
+## 🥇 4. Ranking general y categoría de los 10 productos más vendidos
+
+### 🎯 Pregunta:
+> ¿Cuáles son los 10 productos con mayor cantidad de unidades vendidas en todo el catálogo y cuál es su posición dentro de su propia categoría?
+
+### 🛠 Requisito técnico:
+- Usar funciones de ventana para:
+  - Asignar un ranking global por ventas.
+  - Identificar posición relativa del producto en su categoría.
+
+### 📈 Análisis adicional:
+- ¿Son los productos top también líderes en su categoría?
+- ¿O hay competencia interna fuerte con otros productos similares?
+- ¿Hay concentración de ventas en pocas categorías o productos dominantes?
+
+### 🧠 Interpretación esperada:
+- Evaluar el liderazgo de cada producto.
+- Identificar categorías con alta concentración vs. distribución más pareja.
+- Entender la diversidad del catálogo y puntos clave del rendimiento.
