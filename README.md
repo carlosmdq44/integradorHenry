@@ -1,72 +1,58 @@
-🚀 Proyecto Integrador — Data Engineering & Optimization
-📦 Nombre del proyecto: Supermarket Data Optimization
-🧠 Rol: Data Engineer Jr.
-🎯 Objetivo: Transformar, limpiar y optimizar datos de una cadena de supermercados que opera en múltiples ciudades del país.
+# 🚀 Proyecto Integrador — *Data Engineering & Optimization*
 
-🧩 Contexto del desafío
+📦 **Nombre del proyecto:** Supermarket Data Optimization  
+🧠 **Rol:** Data Engineer Jr.  
+🎯 **Objetivo:** Transformar, limpiar y optimizar datos de una cadena de supermercados que opera en múltiples ciudades del país.
+
+## 🧩 Contexto del desafío
+
 La empresa enfrenta problemas de:
+- ❌ Datos dispersos en múltiples fuentes
+- 📉 Calidad inconsistente
+- 🐢 Consultas lentas y poco eficientes
 
-❌ Datos dispersos en múltiples fuentes
+Tu misión como nuevo integrante del equipo de datos es clara:  
+**¡Convertir el caos en información útil y bien estructurada!**
 
-📉 Calidad inconsistente
+## 🛠️ Etapas del proyecto
 
-🐢 Consultas lentas y poco eficientes
+1. 📥 **Carga y exploración de datos en SQL**
+   - Importación de `.csv` en MySQL
+   - Creación de tablas e integridad referencial
+   - Exploración y análisis inicial con SQL
 
-Tu misión como nuevo integrante del equipo de datos es clara:
+2. 🧹 **Limpieza y optimización**
+   - Detectar valores nulos, duplicados y errores
+   - Implementar `VIEWS` y `STORED PROCEDURES`
+   - Mejorar el rendimiento de las consultas
 
-¡Convertir el caos en información útil y bien estructurada!
+3. 🐍 **Transformación avanzada con Python**
+   - Extracción con `pymysql` / `sqlalchemy`
+   - Limpieza con Pandas
+   - Feature engineering e integración a una Feature Store
 
-🛠️ Etapas del proyecto
-📥 Carga y exploración de datos en SQL
+4. 💡 **Refactor & Diseño**
+   - Código modular y reutilizable
+   - Aplicación de patrones de diseño
+   - Documentación + presentación final
 
-Importación de .csv en MySQL
+## 🔧 Herramientas utilizadas
 
-Creación de tablas e integridad referencial
+| 💽 Base de datos | 🐍 Lenguaje | 📊 Procesamiento | 💻 IDE            |
+|------------------|-------------|------------------|--------------------|
+| MySQL            | Python 3.11 | Pandas / SQL     | DBeaver / VS Code  |
 
-Exploración y análisis inicial con SQL
 
-🧹 Limpieza y optimización
+## 📊 Tablas clave
 
-Detectar valores nulos, duplicados y errores
+- `customers` 👤 — Clientes  
+- `products` 📦 — Productos  
+- `sales` 💰 — Ventas  
+- `employees` 👨‍💼 — Empleados  
+- `cities` 🌆 — Ciudades  
+- `countries` 🌍 — Países  
+- `categories` 🏷️ — Categorías  
 
-Implementar VIEWS y STORED PROCEDURES
+## ✅ Resultado esperado
 
-Mejorar el rendimiento de las consultas
-
-🐍 Transformación avanzada con Python
-
-Extracción con pymysql / sqlalchemy
-
-Limpieza con Pandas
-
-Feature engineering e integración a una Feature Store
-
-💡 Refactor & Diseño
-
-Código modular y reutilizable
-
-Aplicación de patrones de diseño
-
-Documentación + presentación final
-
-🔧 Herramientas utilizadas
-💽 Base de datos	🐍 Lenguaje	📊 Procesamiento	💻 IDE
-MySQL	Python 3.11	Pandas / SQL	DBeaver / VS Code
-
-📊 Tablas clave
-customers 👤 — Clientes
-
-products 📦 — Productos
-
-sales 💰 — Ventas
-
-employees 👨‍💼 — Empleados
-
-cities 🌆 — Ciudades
-
-countries 🌍 — Países
-
-categories 🏷️ — Categorías
-
-✅ Resultado esperado
-Un flujo de datos limpio, optimizado y escalable, listo para ser usado en análisis de negocio, reporting y modelos predictivos.
+> Un flujo de datos limpio, optimizado y escalable, listo para ser usado en análisis de negocio, reporting y modelos predictivos.
