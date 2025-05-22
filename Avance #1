@@ -9,11 +9,6 @@
 - ¿Hay algún vendedor que aparece más de una vez como el que más vendió un producto?
 - ¿Algunos de estos vendedores representan más del 10% de las ventas de ese producto?
 
-### 🧠 Interpretación esperada:
-- Identificar patrones de rendimiento por vendedor.
-- Detectar si hay concentración de ventas en pocos vendedores.
-- Evaluar dependencia de ciertos productos respecto a actores clave.
-
 ## 👥 2. Participación de clientes en los 5 productos más vendidos
 
 ### 🎯 Pregunta:
@@ -24,10 +19,6 @@
 - ¿Algún producto depende de pocos clientes que generan mucho volumen?
 - ¿Cuál es la diferencia entre productos en cuanto a diversidad de compradores?
 
-### 🧠 Interpretación esperada:
-- Evaluar si los productos fueron populares o exclusivos.
-- Medir la penetración de cada producto en la base de clientes.
-
 ## 🏷️ 3. Relación de productos más vendidos con sus categorías
 
 ### 🎯 Pregunta:
@@ -37,10 +28,6 @@
 - Utilizar funciones de ventana (`WINDOW FUNCTIONS`) para:
   - Calcular ranking dentro de la categoría.
   - Comparar la proporción del producto respecto al total de su categoría.
-
-### 🧠 Interpretación esperada:
-- Ver si los productos dominan su categoría o comparten protagonismo.
-- Detectar si hay productos “estrella” dentro de segmentos específicos.
 
 ## 🥇 4. Ranking general y categoría de los 10 productos más vendidos
 
@@ -56,8 +43,3 @@
 - ¿Son los productos top también líderes en su categoría?
 - ¿O hay competencia interna fuerte con otros productos similares?
 - ¿Hay concentración de ventas en pocas categorías o productos dominantes?
-
-### 🧠 Interpretación esperada:
-- Evaluar el liderazgo de cada producto.
-- Identificar categorías con alta concentración vs. distribución más pareja.
-- Entender la diversidad del catálogo y puntos clave del rendimiento.
