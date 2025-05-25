@@ -1,17 +1,5 @@
-# 📊 Análisis de Ventas - Proyecto Integrador
 
-## 🏆 1. Top 5 productos más vendidos y sus vendedores principales
-
-### 🎯 Pregunta:
-> ¿Cuáles fueron los 5 productos más vendidos (por cantidad total), y cuál fue el vendedor que más unidades vendió de cada uno?
-
-### 📈 Análisis adicional:
-- ¿Hay algún vendedor que aparece más de una vez como el que más vendió un producto?
-- ¿Algunos de estos vendedores representan más del 10% de las ventas de ese producto?
-
-## 👥 2. Participación de clientes en los 5 productos más vendidos
-
-### 🎯 Pregunta:
+### 🎯 Preguntas Parte 2:
 > Entre los 5 productos más vendidos, ¿cuántos clientes únicos los compraron y qué proporción representan sobre el total de clientes?
 
 ### 📈 Análisis adicional:
