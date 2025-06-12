@@ -33,3 +33,5 @@ Este análisis permitió detectar patrones valiosos como:
 - Repetición de ciertos vendedores en el top de ventas
 - Diagnóstico de datos inconsistentes que se limpiaron
 - Creación de variables nuevas (edad al ingreso, años de experiencia, etc.)
+
+## 📄 Por favor, revisar el archivo PDF adjunto con las explicaciones detalladas del desarrollo del Proyecto Integrador M1. Allí se describen los pasos seguidos, las decisiones tomadas y el análisis realizado en profundidad.
